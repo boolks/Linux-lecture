@@ -1,0 +1,75 @@
+리눅스 1일차 명령어
+ls------------------------------------------------
+ls -alRS /
+ls -l == ll // 파일 상세정보 출력
+ls -al // 숨김파일까지 전부다 출력
+ls -alR // 하위 디렉토리까지 다 보여줌
+ls -alS // sort
+ls a* // a로 시작하는 모든 파일/폴더
+ls [b-d]* // b~d로 시작하는 모든 파일/폴더
+ls [^p-z]* // p~z로 시작하는 모든 파일/폴더 빼고 다
+
+디렉토리관련명령--------------------------------
+cd /usr/local // change directory
+rm -rf d1 // 디렉토리 내 파일까지 다 삭제
+pwd = echo $HOME = echo ~ // 현재 디렉토리 확인
+cd ~ // 홈으로
+
+who---------------------------------------------
+who | sort | nl
+whoami
+who | wc // 워드카운트 몇개인지 개수 세기 -l // 개수만 딱 보여줌
+
+mkdir------------------------------------------------
+mkdir ddd // make directory
+mkdir k{1..10} // k1~k10까지 디렉토리 생성
+rmdir // remove directory
+
+기타명령어----------------------------------- 
+cal // 이번 달 캘린더 출력
+cal 2019 // 2019년 출력
+date // 날짜 및 현재시간 출력
+ping google.com -c3
+df -h
+tty
+wall // message 작성
+mesg no / yes // message 끄기 켜기
+man ls // 메뉴얼
+history // 콘솔창에 입력했던 명령어 출력
+^l // clear
+alias // 별칭만들기 (ex. alias c='clear')
+rpm -qa | nl // 내 컴퓨터에 설치된 목록 확인
+
+vi편집기 관련----------------------------------------
+cat k1 // 콘솔창에 내용 출력
+cat > k1 // 콘솔창에서 k1 내용 입력 후 저장
+nl k1 // = cat
+vi k.c // k.c 이름의 편집기 열기
+:wq :q! // w-저장 q-종료 q!-강제종료
+:w bb.c // 다른이름으로 저장
+javac J.java // 자바 컴파일
+java J // 자바 실행
+cal > k1 // 파일 생성해서 붙여넣기
+date >> k1 // 생성한 파일 밑에 붙여넣기
+touch a1 // 빈파일 생성
+0>k1 // 바이트를 0으로(내용 삭제)
+
+[j3@it ~]$ vi ~/.vimrc
+  1 set nu // 줄번호 보이기
+  2 set tabstop=4 // 탭 공백 크기
+  3 set smartindent // 자동 들여쓰기
+  4 set shiftwidth=4 // 들여쓰기 탭 공백
+
+
+
+
+
+
+
+
+
+
+
+
+
+
