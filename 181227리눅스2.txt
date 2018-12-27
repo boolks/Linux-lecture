@@ -15,9 +15,8 @@ PATH=$PATH:. // PATH 변수에 현재경로 등록(컴파일 시 ./ 필요 없�
 >bash파일 실행 명령어
 bash b.sh
 chmod // 실행권한 추가
-
+df -h // 시스템 파일정보 및 사용량 표기
 rpm -qa | rpm gcc(java)	// 컴파일러 설치 되어있는지 확인
-
 yum -y install java-devel // 자바설치 명령어
 
 vi명령어------------------------------------------
@@ -43,7 +42,7 @@ systemctl restart firewalld
 
 systemctl set-default multi-user.target // 멀티유저(runlevel 3)으로 변경
 
-failed to load selinux policy freezing 해결법----------------------------
+failed to load selinux policy freezing 해결법-----
 selinux=0
 ctrl+x
 
