@@ -1,0 +1,45 @@
+논리식--------------------------------------------
+|| // OR 둘 중 하나만 만족해도 참
+&& // AND 둘 다 만족할 때 참
+
+내부명령어(builtin command)------------------------
+bash shell에 내장된 명령어
+enable // 내부명령어 목록 출력
+whereis // 파일 위치 경로 및 파일 출력
+which // 파일 위치 경로 출력
+echo // 콘솔창에 출력
+$ // 콘솔창에 저장된 변수
+echo $A // A변수 출력
+env // 환경변수 값 확인
+PATH=$PATH:. // PATH 변수에 현재경로 등록(컴파일 시 ./ 필요 없음)
+>bash파일 실행 명령어
+bash b.sh
+chmod // 실행권한 추가
+
+rpm -qa | rpm gcc(java)	// 컴파일러 설치 되어있는지 확인
+
+yum -y install java-devel // 자바설치 명령어
+
+vi명령어------------------------------------------
+se cindent // 자동 들여쓰기
+se ai // 자동 줄맞춤
+se ts=4 // 탭 길이 설정
+
+virtualbox 설정-----------------------------------
+
+공유 폴더->+버튼->win폴더 설정/자동 마운트체크->확인
+네트워크->고급->포트포워딩->+버튼->호스트 포트 및 게스트 포트 22
+네트워크->고급->포트포워딩->+버튼->호스트 포트 및 게스트 포트 22
+네트워크->고급->포트포워딩->+버튼->호스트 포트 및 게스트 포트 80
+네트워크->고급->포트포워딩->+버튼->호스트 포트 및 게스트 포트 8080
+
+// 리눅스에서 ssh 사용 가능하게 설정
+systemctl restart sshd
+systemctl enable sshd
+
+system status firewalld // 방화벽 상태 확인
+systemctl enable/disable firewalld // 방화벽 끄기
+systemctl restart firewalld
+
+systemctl set-default multi-user.target // 멀티유저(runlevel 3)으로 변경
+
