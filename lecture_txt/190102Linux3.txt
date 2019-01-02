@@ -29,6 +29,7 @@ gg=G  // 줄맞춤
 " - double quote
 ` - back quote
 
+& - ampersand 주소연산자
 연산자 - +, -, *, / etc...
 제어문 - if, for, while etc...
 자료형(Data type) - int, double, float, char, string etc...
@@ -65,3 +66,4 @@ Variable vs Constant
 
 signed int : -128~127
 unsigned int : 0~255
+
