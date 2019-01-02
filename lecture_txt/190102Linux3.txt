@@ -17,6 +17,29 @@ gcc
 Java - eclipse
 DLL (Dynamic Link Library)
 ------------------------------------------------
-
 vi 편집기 명령어
 gg=G  // 줄맞춤
+------------------------------------------------
+프로그램(Program) : Data 처리
+40 - 정수
+5.6 - 실수
+'A' - 문자
+"Star" - 문자열
+' - single quote
+" - double quote
+` - back quote
+
+연산자 - +, -, *, / etc...
+제어문 - if, for, while etc...
+자료형(Data type) - int, double, float, char, string etc...
+함수(Function) - 코드 묶음
+
+절차지향적 프로그래밍 - 코드 순서의 흐름에 따라 실행하는 방식
+객체지향적 프로그래밍 - 클래스의 변수인 객체가 움직이는대로 실행하는 방식
+
+16진수 Hexadecimal
+10진수 Decimal
+8진수 Octal
+2진수 Binary
+
+sizeof(mem) - 메모리 크기
