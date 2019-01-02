@@ -17,3 +17,6 @@ gcc
 Java - eclipse
 DLL (Dynamic Link Library)
 ------------------------------------------------
+
+vi 편집기 명령어
+gg=G  // 줄맞춤
