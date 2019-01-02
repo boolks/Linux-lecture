@@ -59,5 +59,5 @@ getchar <-> putchar 문자 전용
 gets <-> puts 문자열 전용
 scanf <-> printf 복합기
 
-%d = , %f = , %lf = , %c = , %s = 
+%d = 10진수 출력, %f = 작은 실수(4byte) 출력, %lf = 큰 실수(8byte) 출력, %c = 한 문자 출력, %s = 문자열 
 
