@@ -42,4 +42,28 @@ ex. -2의 2진수 표기법
 
 구조체(Structure)
 서로 다른 자료형을 갖는 자료들을 하나의 집합으로 정의하여 사용하는 자료형. (사용자 정의 자료형)
+선언
+typedef struct 구조체명{
+      데이터타입 멤버변수;
+      int age;
+};
 
+호출 시 p1.age으로 변수 호출 
+----------------------------------------------------------------------------------------------------------------------------------------
+
+함수
+int sum(int x, int y){
+  return x + y;
+}
+
+int main(){
+  sum(5, 3);
+}
+
+return type (반환값의 형태) -> int
+return value (반환값) -> x + y
+parameter (매개변수) -> int x, int y
+argument (전달변수, 전달인자) -> 5, 3
+
+library function(표준함수, 내장함수, 시스템 제공함수)
+stdio.h, stdlib.h, string.h, math.h, etc...
